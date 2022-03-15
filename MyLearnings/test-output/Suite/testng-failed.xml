@@ -7,7 +7,8 @@
         <methods>
           <include name="closeBrowser"/>
           <include name="Guru99"/>
-          <include name="startBrowser"/>
+          <include name="setProperty"/>
+          <include name="launchUrl"/>
         </methods>
       </class> <!-- Assignment.Ass1 -->
     </classes>

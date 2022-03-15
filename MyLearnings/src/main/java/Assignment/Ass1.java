@@ -16,24 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Ass1 extends Ass1PageObjects {
 	Ass1PageObjects obj = new Ass1PageObjects();
 
-//	@BeforeMethod
-//	public void setUp(){
-//		WebDriverManager.firefoxdriver().setup();
-//
-//		
-//	}
-//	
-//	@BeforeTest
-//	public void startBrowser() {
-//
-//		driver= new FirefoxDriver();
-//		driver.get("http://live.techpanda.org/index.php/");
-//		
-//		driver.manage().window().maximize();
-//
-//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-//		
-//	}
+
 	
 	@BeforeMethod
 	public void setProperty() {

@@ -72,7 +72,7 @@ public class Ass1 extends Ass1PageObjects {
 	
 	@AfterTest
 	public void closeBrowser() {
-//		driver.manage().deleteAllCookies();
-//		driver.quit();
+		driver.manage().deleteAllCookies();
+		driver.quit();
 	}
 }

@@ -6,11 +6,21 @@
 
 
 	<build>
+        <sourceDirectory>src/main/java</sourceDirectory> 
+      
+
 		<plugins>
 			<plugin>
+
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.10.1</version>
+                <inherited>true</inherited>
+
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
 			</plugin>
 
 
@@ -27,11 +37,8 @@
 			</plugin>
 		</plugins>
 
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-			</resource>
-		</resources>
+   
+		
 	</build>
 
 
@@ -42,6 +49,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.5</version>
+            <scope>compile</scope>
 		</dependency>
 
 
@@ -74,6 +82,15 @@
 			<artifactId>exec-maven-plugin</artifactId>
 			<version>3.0.0</version>
 		</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>31.1-jre</version>
+</dependency>
+
 
 	</dependencies>
 </project>

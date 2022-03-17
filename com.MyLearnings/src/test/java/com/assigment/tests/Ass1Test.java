@@ -40,7 +40,7 @@ public class Ass1Test extends Ass1PageObjects {
 
 	@Test
 	public void SelectName() throws Exception {
-
+        Thread.sleep(1000);
 		obj.verifyPagetitle();
 		obj.clickOnMobile();
 //		screenshot.TakesScreenshots();

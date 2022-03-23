@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T16:13:25 IST" name="Default suite" finished-at="2022-03-16T16:13:41 IST" duration-ms="15817">
+  <suite started-at="2022-03-23T23:31:30 IST" name="Default suite" finished-at="2022-03-23T23:32:00 IST" duration-ms="30295">
     <groups>
     </groups>
-    <test started-at="2022-03-16T16:13:25 IST" name="Default test" finished-at="2022-03-16T16:13:41 IST" duration-ms="15817">
+    <test started-at="2022-03-23T23:31:30 IST" name="Default test" finished-at="2022-03-23T23:32:00 IST" duration-ms="30295">
       <class name="com.assigment.tests.Ass1Test">
-        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.assigment.tests.Ass1Test@1caa0244]" started-at="2022-03-16T16:13:25 IST" name="launchUrl" finished-at="2022-03-16T16:13:35 IST" duration-ms="10212" status="PASS">
+        <test-method is-config="true" signature="launchUrl()[pri:0, instance:com.assigment.tests.Ass1Test@7e057f43]" started-at="2022-03-23T23:31:30 IST" name="launchUrl" finished-at="2022-03-23T23:31:40 IST" duration-ms="10339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchUrl -->
-        <test-method is-config="true" signature="setProperty()[pri:0, instance:com.assigment.tests.Ass1Test@1caa0244]" started-at="2022-03-16T16:13:35 IST" name="setProperty" finished-at="2022-03-16T16:13:35 IST" duration-ms="338" status="PASS">
+        <test-method is-config="true" signature="setProperty()[pri:0, instance:com.assigment.tests.Ass1Test@7e057f43]" started-at="2022-03-23T23:31:41 IST" name="setProperty" finished-at="2022-03-23T23:31:41 IST" duration-ms="551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setProperty -->
-        <test-method signature="SelectName()[pri:0, instance:com.assigment.tests.Ass1Test@1caa0244]" started-at="2022-03-16T16:13:35 IST" name="SelectName" finished-at="2022-03-16T16:13:40 IST" duration-ms="4743" status="PASS">
+        <test-method signature="compareTwoProducts()[pri:0, instance:com.assigment.tests.Ass1Test@7e057f43]" started-at="2022-03-23T23:31:41 IST" name="compareTwoProducts" description="Verify that you are able to compare two product" finished-at="2022-03-23T23:32:00 IST" duration-ms="18675" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SelectName -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.assigment.tests.Ass1Test@1caa0244]" started-at="2022-03-16T16:13:40 IST" name="closeBrowser" finished-at="2022-03-16T16:13:41 IST" duration-ms="452" status="PASS">
+        </test-method> <!-- compareTwoProducts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.assigment.tests.Ass1Test@7e057f43]" started-at="2022-03-23T23:32:00 IST" name="closeBrowser" finished-at="2022-03-23T23:32:00 IST" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

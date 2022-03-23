@@ -9,7 +9,7 @@ import org.apache.commons.io.FileUtils;
 
 import com.assigment.pageObjects.Ass1PageObjects;
 
-public class Screenshots extends Ass1PageObjects{
+public class Screenshots extends Drivers{
 	
 	public void TakesScreenshots() throws IOException {
 		
@@ -18,6 +18,7 @@ public class Screenshots extends Ass1PageObjects{
 	File source = ts.getScreenshotAs(OutputType.FILE);
 	File destFile=new File("./src/main/resources/Screenshot.png");
 	FileUtils.copyFile(source, destFile);
+	
 	}
 
 }
